@@ -1,0 +1,15 @@
+.links {
+    &__link {
+        display: inline-block;
+        width: 95%;
+        padding: 5px 8px;
+        background-color: $yellow-color;
+        font-size: 11px;
+        text-decoration: underline;
+        color: #000;
+
+        &:hover {
+            text-decoration: none;
+        }
+    };
+}

@@ -1,0 +1,15 @@
+.footer {
+    background-color: $yellow-color !important;
+
+    &__link {
+        font-weight: bold;
+    }
+
+    &__image {
+        display: inline-block;
+
+        & + & {
+            margin-left: 16px;
+        }
+    }
+}

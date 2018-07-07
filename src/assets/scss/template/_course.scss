@@ -1,0 +1,22 @@
+.course {
+    &__title {
+        font-size: 14px;
+        font-weight: bold;
+    }
+
+    &__date {
+        font-size: 12px;
+        font-weight: bold;
+    }
+
+    &__link {
+        font-size: 12px;
+        text-decoration: underline;
+        color: #000;
+
+        &:hover {
+            text-decoration: none;
+            color: $yellow-color;
+        }
+    }
+}
